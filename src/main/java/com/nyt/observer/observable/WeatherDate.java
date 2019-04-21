@@ -13,7 +13,7 @@ public class WeatherDate extends Observable {
         this.humidity=humidity;
         this.pressure=pressure;
         setChanged();//注意，需要标志主题内的状态改变了
-        notifyObservers(null);//使用推的方式
+        notifyObservers(null);//需要推送的参数为空，观察者需要自己'拉'取数据
     }
 
     public float getTemperature() {
