@@ -1,4 +1,7 @@
-package com.nyt.visitor;
+package com.nyt.visitor.impl;
+
+import com.nyt.visitor.ComputerPart;
+import com.nyt.visitor.Visitor;
 
 public class Board implements ComputerPart {
     @Override

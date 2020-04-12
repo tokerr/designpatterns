@@ -1,5 +1,7 @@
 package com.nyt.visitor;
 
+import com.nyt.visitor.impl.*;
+
 public class Computer {
 
 
