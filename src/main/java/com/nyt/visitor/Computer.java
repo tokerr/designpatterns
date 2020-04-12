@@ -14,15 +14,19 @@ public class Computer {
     }
 
     public static void main(String[] args) {
-        Student student = new Student();
-
-
         Computer computer = new Computer();
 
+
+
+        Student student = new Student();
         computer.metric(student);
+
+        Employee employee = new Employee();
+        computer.metric(employee);
 
 
         System.out.println(student.totalPrice);
+        System.out.println(employee.totalPrice);
 
     }
 }
